@@ -24,19 +24,3 @@ $(document).ready(function(){
         }
     );
 });
-
-//$(document).on('mousemove', function(e){
-//    $('.expand').hover(
-//        function(){
-//            // When mouse enters
-//            $('.caption-container-right').css({
-//                left: e.pageX,
-//                top: e.pageY
-//            });
-//            
-//        },
-//        function(){
-//            // When mouse leaves
-//        }
-//    );
-//});
