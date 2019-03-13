@@ -403,11 +403,11 @@ header img {
 
 .caption-container {
     visibility: hidden;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 10px;
-    background-color: #e8f2f7;
+    background-color: black;
     font-family: "Courier New", Times, serif;
-    color: black;
+    color: white;
     position: absolute;
     padding: 0 10px;
     width: 300px;
