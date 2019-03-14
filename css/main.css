@@ -403,8 +403,8 @@ header img {
 
 .caption-container {
     visibility: hidden;
-    box-shadow: 0 0 0 1px black;
-    border: 2px solid white;
+    box-shadow: 0 0 0 3px black;
+    border: 3px solid white;
     border-radius: 10px;
     background-color: black;
     font-family: "Courier New", Times, serif;
