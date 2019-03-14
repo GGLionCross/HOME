@@ -351,6 +351,11 @@
 }
 /* NORMALIZING CSS ABOVE */
 
+html, body {
+    max-width: 100%; 
+    overflow-x: hidden; /* Prevent horizontal scrolling, image caption would cause overflow */
+}
+
 .navigation a {
     font-weight: bold;
     color: midnightblue;
