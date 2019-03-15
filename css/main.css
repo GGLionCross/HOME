@@ -360,8 +360,9 @@ html, body {
     font-weight: bold;
     color: midnightblue;
     text-decoration: none;
-    padding: 24px 24px;
-/*    background-color: darkcyan;*/
+    padding: 12px 12px;
+    margin: 12px 12px;
+    /*background-color: darkcyan;*/
 }
 header {
     font-family: "Arial";
@@ -373,6 +374,16 @@ header {
 header img {
     margin: 24px 0;
 /*    background: darkcyan;*/
+}
+
+.active_page {
+    border-bottom: 4px midnightblue solid;
+    border-radius: 4px;
+}
+
+.hover_page {
+    border-bottom: 4px lime solid;
+    border-radius: 4px;
 }
 
 .mission {
