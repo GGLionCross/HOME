@@ -381,12 +381,12 @@ nav {
 #header-ctn > p {
   margin: 0 2%;
   font-family: Alghifari;
-  font-size: 200%;
+  font-size: 400%;
   color: white;
 }
 
 #menu-btn-ctn {
-  width: 15%;
+  width: 8%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -394,8 +394,8 @@ nav {
 }
 
 #menu-btn {
-  height: 60%;
-  width: 60%;
+  height: 80px;
+  width: 80px;
   position: relative; /* KEEP */
   border: 2px solid white;
   border-radius: 5%;
@@ -407,9 +407,9 @@ nav {
 }
 
 #menu-btn > div {
-  height: 8%;
-  width: 75%;
-  border-radius: 15%;
+  height: 4px;
+  width: 40px;
+  border-radius: 10%;
   background-color: white;
   transition: background-color 400ms;
 }
@@ -425,6 +425,7 @@ nav {
   padding: 4%;
   border-top: 2px solid white;
   text-align: center;
-  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-family: Comic Sans MS;
+  font-size: 250%;
   color: white;
 }
