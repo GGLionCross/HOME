@@ -435,6 +435,9 @@ nav {
 }
 
 #menu-ctn > div > a {
+  height: 100%;
+  width: 100%;
+  display: inline-block;
   text-decoration: none;
   color: white;
 }
