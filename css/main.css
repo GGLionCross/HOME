@@ -386,7 +386,7 @@ nav {
 }
 
 #menu-btn-ctn {
-  width: 5%;
+  width: 18%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -394,8 +394,8 @@ nav {
 }
 
 #menu-btn {
-  height: 60%;
-  width: 60%;
+  height: 80%;
+  width: 80%;
   position: relative; /* KEEP */
   border: 2px solid white;
   border-radius: 5%;
