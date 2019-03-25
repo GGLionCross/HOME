@@ -1,37 +1,24 @@
 $(document).ready(function(){
-    /*
-     * When hovering over one of the page links,
-     * highlight them, to let the user know
-     */
-    $('.navigation a').hover(function(){
-        // When mouse enters
-        if (this.className != 'active_page')
-            this.classList.add('hover_page');
-    }, function(){
-        // When mouse leaves
-        this.classList.remove('hover_page');
-    });
-    
-    /*
-     *  Handles the floating captions when
-     *  hovering over images on the HOME
-     *  main page.
-     */
-    $('.expand').hover(function(){
-        // When mouse enters
-        var sibling = this.nextElementSibling; // Get the caption container
-        var sib_height = sibling.clientHeight;
-        var sib_width = sibling.clientWidth;
-        sibling.style.visibility = "visible"; // Show caption
-        // Make caption follow cursor
-        $(document).on('mousemove', function(e){
-            $(sibling).css({
-                left: e.pageX - (sib_width / 2),
-                top: e.pageY - sib_height - 50
-            });
-        });
-    }, function(){
-        // When mouse leaves
-        this.nextElementSibling.style.visibility = "hidden";
-    });
+	var nav = $("nav");
+	var menu = $("#menu-ctn");
+	var menu_btn = $("#menu-btn");
+	var menu_flag = false;
+	var menu_height = menu.height();
+	menu.css("margin-top", -menu_height);
+	menu_btn.click(function(){
+		if (menu_flag == true){
+			menu_flag = false;
+			menu_btn.removeClass("menu-act");
+			$("#menu-btn > div").css("background-color", "white");
+			menu.animate({ "margin-top": -menu_height }, "slow");
+			nav.css("box-shadow", "0 0 1px 100vmax rgba(0,0,0,0)")
+		}
+		else {
+			menu_flag = true;
+			menu_btn.addClass("menu-act");
+			$("#menu-btn > div").css("background-color", "grey");
+			menu.animate({ "margin-top": 0 }, "slow");
+			nav.css("box-shadow", "0 0 1px 100vmax rgba(0,0,0,0.7)")
+		}
+	});
 });

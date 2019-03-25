@@ -350,81 +350,100 @@
     }
 }
 /* NORMALIZING CSS ABOVE */
-@font-face {
-  font-family: Alghifari;
-  src: url(MjAlghifariWebKit/mj_alghifari_demo-webfont.woff);
-}
 
 html, body {
-  height: 100%;
-  width: 100%;
-  margin: 0;
+    max-width: 100%; 
+    overflow-x: hidden; /* Prevent horizontal scrolling, image caption would cause overflow */
 }
 
-body {
-  background-color: #F98866;
+.navigation a {
+    font-weight: bold;
+    color: midnightblue;
+    text-decoration: none;
+    padding: 12px 12px;
+    margin: 12px 12px;
+    /*background-color: darkcyan;*/
+}
+header {
+    font-family: "Arial";
+    color: midnightblue;
+    text-align: center;
+    margin-bottom: 96px;
+/*    background-color: darkcyan;*/
+}
+header img {
+    margin: 24px 0;
+/*    background: darkcyan;*/
 }
 
-nav {
-  border-bottom: 2px solid white;
-  background-color: #89DA59;
-  box-shadow: 0 0 1px 100vmax rgba(0,0,0,0);
-  transition: box-shadow 300ms;
-}
-#header-ctn {
-  background-color: inherit;
-  position: relative;
-  z-index: 1; /* Puts header in front of menu */
-  display: flex;
-  justify-content: space-between;
-}
-#header-ctn > p {
-  margin: 0 2%;
-  font-family: Alghifari;
-  font-size: 200%;
-  color: white;
+.active_page {
+    border-bottom: 4px midnightblue solid;
+    border-radius: 4px;
 }
 
-#menu-btn-ctn {
-  width: 15%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: inherit;
+.hover_page {
+    border-bottom: 4px lime solid;
+    border-radius: 4px;
 }
 
-#menu-btn {
-  height: 60%;
-  width: 60%;
-  position: relative; /* KEEP */
-  border: 2px solid white;
-  border-radius: 5%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: space-evenly;
-  background-color: inherit;
+.mission {
+    font-family: "Arial";
+    color: midnightblue;
+    text-align: center;
+    margin-bottom: 96px;
+/*    background-color: darkviolet;*/
+}
+.mission img {
+    margin: 12px 0;
+}
+.mission h2 {
+    margin: 48px 0;
+}
+.mission p {
+    margin: 0 auto;
+    width: 40%;
+    line-height: 2em;
 }
 
-#menu-btn > div {
-  height: 8%;
-  width: 75%;
-  border-radius: 15%;
-  background-color: white;
-  transition: background-color 400ms;
+.row {
+    text-align: center;
+    margin: 10px 0;
 }
 
-#menu-ctn {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+.photo-container {
+    display: inline-block;
+    height: inherit;
+    margin: 0 4px;
 }
 
-#menu-ctn > div {
-  width: 60%;
-  padding: 4%;
-  border-top: 2px solid white;
-  text-align: center;
-  font-family: Comic Sans MS, Comic Sans, cursive;
-  color: white;
+.caption-container {
+    position: absolute;
+    visibility: hidden;
+    box-shadow: 0 0 0 3px black;
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: black;
+    font-family: "Courier New", Times, serif;
+    color: white;
+    padding: 0 10px;
+    width: 300px;
 }
+
+.photo-container img {
+    height: inherit;
+}
+
+.expand {
+    transition: transform .2s;
+}
+
+.expand:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
