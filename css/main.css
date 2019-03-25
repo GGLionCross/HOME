@@ -366,8 +366,6 @@ body {
 }
 
 nav {
-  width: 100%;
-  border-bottom: 2px solid white;
   background-color: #89DA59;
   box-shadow: 0 0 1px 100vmax rgba(0,0,0,0);
   transition: box-shadow 300ms;
@@ -416,6 +414,8 @@ nav {
 }
 
 #menu-ctn {
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -431,7 +431,7 @@ nav {
 }
 
 #menu-ctn > div:first-child {
-  width: 100%;
+  border-top: none;
 }
 
 #menu-ctn > div > a {
