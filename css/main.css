@@ -374,6 +374,7 @@ nav {
   background-color: inherit;
   position: relative;
   z-index: 1; /* Puts header in front of menu */
+  border-bottom: 2px solid white;
   display: flex;
   justify-content: space-between;
 }
@@ -414,8 +415,6 @@ nav {
 }
 
 #menu-ctn {
-  border-top: 2px solid white;
-  border-bottom: 2px solid white;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -423,11 +422,9 @@ nav {
 
 #menu-ctn > div {
   width: 60%;
-  padding: 4%;
   border-top: 2px solid white;
   text-align: center;
   font-family: Comic Sans MS;
-  font-size: 200%;
 }
 
 #menu-ctn > div:first-child {
@@ -439,6 +436,8 @@ nav {
   width: 100%;
   display: inline-block;
   text-decoration: none;
+  font-size: 200%;
+  line-height: 300%;
   color: white;
 }
 

@@ -10,6 +10,7 @@ $(document).ready(function(){
 			menu_flag = false;
 			menu_btn.removeClass("menu-act");
 			$("#menu-btn > div").css("background-color", "white");
+			menu.css("border-bottom", "none");
 			menu.animate({ "margin-top": -menu_height }, "slow");
 			nav.css("box-shadow", "0 0 1px 100vmax rgba(0,0,0,0)")
 		}
@@ -17,6 +18,7 @@ $(document).ready(function(){
 			menu_flag = true;
 			menu_btn.addClass("menu-act");
 			$("#menu-btn > div").css("background-color", "grey");
+			menu.css("border-bottom", "2px solid white");
 			menu.animate({ "margin-top": 0 }, "slow");
 			nav.css("box-shadow", "0 0 1px 100vmax rgba(0,0,0,0.7)")
 		}
