@@ -12,7 +12,7 @@ $(document).ready(function(){
 			menu_open();
 		}
 	});
-	$("#nav-span").on("tap", function(){
+	$("#nav-span").click(function(){
 		if (menu_flag == true){
 			menu_flag = false;
 			menu_close();

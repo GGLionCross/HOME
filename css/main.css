@@ -367,7 +367,8 @@ body {
 
 nav {
   height: 10%;
-  position: sticky;
+  width: 100%;
+  position: fixed;
   top: 0;
   background-color: #002855;
   box-shadow: 0 0 1px 100vmax rgba(0,0,0,0);
@@ -460,7 +461,7 @@ nav {
 }
 
 #mission-ctn {
-  margin: 10% 0;
+  margin-top: 15vh;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -498,7 +499,7 @@ nav {
 }
 
 #mem-ctn > .mem:first-child {
-  margin-top: 10%;
+  margin-top: 15vh;
 }
 
 .mem {
