@@ -490,3 +490,46 @@ nav {
   font-family: Comic Sans MS;
   color: white;
 }
+
+#mem-ctn {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#mem-ctn > .mem:first-child {
+  margin-top: 10%;
+}
+
+.mem {
+  width: 80vw;
+  margin-bottom: 10%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #002855;
+}
+
+.mem > img {
+  width: 60vw;
+  height: 60vw;
+  margin-top: 10vw;
+  border: 3px solid white;
+  border-radius: 50%;
+}
+
+.mem > h1 {
+  width: 50vw;
+  border-bottom: 3px solid white;
+  color: white;
+  text-align: center;
+  font-family: Comic Sans MS;
+}
+
+.mem > p {
+  width: 60vw;
+  margin-bottom: 10vw;
+  text-align: center;
+  font-family: Comic Sans MS;
+  color: white;
+}
