@@ -12,12 +12,12 @@ $(document).ready(function(){
 			menu_open();
 		}
 	});
-	$("#nav-span").click(function(){
+	$("#nav-span").on("tap", function(){
 		if (menu_flag == true){
 			menu_flag = false;
 			menu_close();
 		}
-	})
+	});
 });
 
 function menu_close()
