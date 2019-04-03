@@ -362,14 +362,14 @@ html, body {
 }
 
 body {
-  background-color: #F98866;
+  background-color: #DAAA00;
 }
 
 nav {
   height: 10%;
   position: sticky;
   top: 0;
-  background-color: #89DA59;
+  background-color: #002855;
   box-shadow: 0 0 1px 100vmax rgba(0,0,0,0);
   transition: box-shadow 300ms;
 }
@@ -414,7 +414,7 @@ nav {
 }
 
 #menu-btn > div {
-  height: 4px;
+  height: 3px;
   width: 60%;
   border-radius: 10%;
   background-color: white;
@@ -423,6 +423,7 @@ nav {
 
 #menu-ctn {
   width: 100%;
+  margin-top: -100vh;
   position: absolute;
   display: flex;
   align-items: center;
@@ -452,18 +453,32 @@ nav {
 }
 
 #menu-ctn > div > #page-active {
-  color: #F98866;
+  color: #DAAA00;
 }
 
-#mission {
+#nav-span {
+  height: 100vw;
+  width: 100vw;
+}
+
+#mission-ctn {
   margin: 10% 0;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-#mission img {
+#mission-ctn img {
   width: 80%;
+}
+
+#mission {
+  width: 90%;
+  margin: 10% 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #002855;
 }
 
 #mission h1 {
