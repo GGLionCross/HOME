@@ -366,7 +366,7 @@ body {
 }
 
 nav {
-  height: 10%;
+  height: 10vh;
   width: 100%;
   position: fixed;
   top: 0;
