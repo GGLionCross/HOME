@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	var menu_flag = false;
 	var menu = $("#menu-ctn");
-	menu.css("margin-top",-menu.height());
+	menu.css("margin-top",-menu.height() - 1);
 	$("#menu-btn").click(function(){
 		if (menu_flag == true){
 			menu_flag = false;
@@ -27,7 +27,7 @@ function menu_close()
 	var menu_btn = $("#menu-btn");
 	var menu_height = menu.height();
 	menu_btn.children("div").css("background-color", "white");
-	menu.animate({ "margin-top": -menu_height }, "slow", function(){
+	menu.animate({ "margin-top": -menu_height - 1 }, "slow", function(){
 		// The callback function, remove border when animation finishes
 		menu.css("border-bottom", "none");
 	});

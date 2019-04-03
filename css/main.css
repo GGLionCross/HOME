@@ -423,7 +423,6 @@ nav {
 
 #menu-ctn {
   width: 100%;
-  margin-top: -100vh;
   position: absolute;
   display: flex;
   align-items: center;
