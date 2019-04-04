@@ -509,6 +509,7 @@ nav {
   flex-direction: column;
   background-color: #002855;
   color: white;
+  text-align: center;
   font-family: Comic Sans MS;
 }
 
