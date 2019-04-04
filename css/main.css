@@ -543,11 +543,13 @@ nav {
   align-items: center;
   flex-direction: column;
   background-color: #002855;
+  text-align: center;
   color: white;
   font-family: Comic Sans MS;
 }
 
 .event-type > h1 {
+  width: 80vw;
   border-bottom: 3px solid white;
 }
 
