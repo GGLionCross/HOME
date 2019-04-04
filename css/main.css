@@ -460,6 +460,7 @@ nav {
   height: 100vh;
 }
 
+/* #region index.html */
 #mission-ctn {
   margin-top: 15vh;
   display: flex;
@@ -468,12 +469,12 @@ nav {
 }
 
 #mission-ctn img {
-  width: 80%;
+  width: 80vw;
 }
 
 #mission {
-  width: 90%;
-  margin: 10% 0;
+  width: 90vw;
+  margin: 10vw 0;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -486,12 +487,83 @@ nav {
 }
 
 #mission p {
-  width: 80%;
+  width: 80vw;
   text-align: center;
   font-family: Comic Sans MS;
   color: white;
 }
+/* #endregion */
 
+/* #region events.html */
+#event-info-ctn {
+  margin-top: 15vh;
+  margin-bottom: 10vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#event-info {
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  background-color: #002855;
+  color: white;
+  font-family: Comic Sans MS;
+}
+
+#event-info > .event:first-child {
+  text-decoration: underline;
+}
+
+.event {
+  display: flex;
+  align-items: left;
+  flex-direction: row;
+}
+
+.event > p {
+  width: 40%;
+  padding-left: 4%;
+}
+
+.event > p:first-child {
+  width: 20%;
+  padding-left: 4%;
+}
+
+#event-type-ctn {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.event-type {
+  width: 90vw;
+  margin-bottom: 10vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #002855;
+  color: white;
+  font-family: Comic Sans MS;
+}
+
+.event-type > h1 {
+  border-bottom: 3px solid white;
+}
+
+.event-type > p {
+  width: 80vw;
+}
+
+.event-type > img {
+  width: 80vw;
+  margin-bottom: 5vh;
+}
+/* #endregion */
+
+/* #region members.html */
 #mem-ctn {
   display: flex;
   align-items: center;
@@ -534,3 +606,6 @@ nav {
   font-family: Comic Sans MS;
   color: white;
 }
+/* #endregion */
+
+
