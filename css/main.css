@@ -436,7 +436,7 @@ nav {
   width: 60%;
   border-top: 3px solid white;
   text-align: center;
-  font-family: Comic Sans MS;
+  font-family: 'Comic Sans MS';
 }
 
 #menu-ctn > div:first-child {
@@ -479,7 +479,7 @@ nav {
   align-items: center;
   flex-direction: column;
   background-color: #002855;
-  font-family: Comic Sans MS;
+  font-family: 'Comic Sans MS';
   text-align: center;
   color: white;
 }
@@ -510,7 +510,7 @@ nav {
   background-color: #002855;
   color: white;
   text-align: center;
-  font-family: Comic Sans MS;
+  font-family: 'Comic Sans MS';
 }
 
 #event-info > .event:first-child {
@@ -548,7 +548,7 @@ nav {
   background-color: #002855;
   text-align: center;
   color: white;
-  font-family: Comic Sans MS;
+  font-family: 'Comic Sans MS';
 }
 
 .event-type > h1 {
@@ -595,14 +595,14 @@ nav {
   border-bottom: 3px solid white;
   color: white;
   text-align: center;
-  font-family: Comic Sans MS;
+  font-family: 'Comic Sans MS';
 }
 
 .mem > p {
   width: 60vw;
   margin-bottom: 10vw;
   text-align: center;
-  font-family: Comic Sans MS;
+  font-family: 'Comic Sans MS';
   color: white;
 }
 /* #endregion */
@@ -622,7 +622,7 @@ nav {
   background-color: #002855;
   text-align: center;
   color: white;
-  font-family: Comic Sans MS;
+  font-family: 'Comic Sans MS';
 }
 
 #contact-info h1 {
