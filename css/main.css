@@ -497,7 +497,7 @@ nav {
 
 /* #region events.html */
 #event-info-ctn {
-  margin-bottom: 10vh;
+  margin-bottom: 5vw;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -541,7 +541,7 @@ nav {
 
 .event-type {
   width: 90vw;
-  margin-bottom: 10vh;
+  margin-bottom: 5vw;
   display: flex;
   align-items: center;
   flex-direction: column;
