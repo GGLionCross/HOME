@@ -480,10 +480,12 @@ nav {
   flex-direction: column;
   background-color: #002855;
   font-family: Comic Sans MS;
+  text-align: center;
   color: white;
 }
 
 #mission h1 {
+  width: 80vw;
   border-bottom: 3px solid white;
 }
 
@@ -617,12 +619,18 @@ nav {
   align-items: center;
   flex-direction: column;
   background-color: #002855;
+  text-align: center;
   color: white;
   font-family: Comic Sans MS;
 }
 
 #contact-info h1 {
+  width: 70vw;
   border-bottom: 3px solid white;
+}
+
+#contact-info p {
+  width: 70vw;
 }
 
 .contact {
