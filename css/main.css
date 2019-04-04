@@ -362,6 +362,7 @@ html, body {
 }
 
 body {
+  padding-top: 15vh;
   background-color: #DAAA00;
 }
 
@@ -462,7 +463,6 @@ nav {
 
 /* #region index.html */
 #mission-ctn {
-  margin-top: 15vh;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -479,24 +479,22 @@ nav {
   align-items: center;
   flex-direction: column;
   background-color: #002855;
+  font-family: Comic Sans MS;
+  color: white;
 }
 
 #mission h1 {
-  font-family: Comic Sans MS;
-  color: white;
+  border-bottom: 3px solid white;
 }
 
 #mission p {
   width: 80vw;
   text-align: center;
-  font-family: Comic Sans MS;
-  color: white;
 }
 /* #endregion */
 
 /* #region events.html */
 #event-info-ctn {
-  margin-top: 15vh;
   margin-bottom: 10vh;
   display: flex;
   align-items: center;
@@ -570,10 +568,6 @@ nav {
   flex-direction: column;
 }
 
-#mem-ctn > .mem:first-child {
-  margin-top: 15vh;
-}
-
 .mem {
   width: 80vw;
   margin-bottom: 10%;
@@ -608,4 +602,37 @@ nav {
 }
 /* #endregion */
 
+/* #region contact.html */
+#contact-ctn {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 
+#contact-info {
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #002855;
+  color: white;
+  font-family: Comic Sans MS;
+}
+
+#contact-info h1 {
+  border-bottom: 3px solid white;
+}
+
+.contact {
+  width: 60vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  line-height: 25%;
+  border-bottom: 1px solid white;
+}
+
+#contact-info .contact:last-child {
+  border-bottom: none;
+}
+/* #endregion */
