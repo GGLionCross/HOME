@@ -363,7 +363,6 @@ html, body {
 
 body {
   padding-top: 15vh;
-  background-color: #DAAA00;
 }
 
 nav {
@@ -380,7 +379,7 @@ nav {
   background-color: inherit;
   position: relative;
   z-index: 1; /* Puts header in front of menu */
-  border-bottom: 3px solid white;
+  border-bottom: 3px solid black;
   display: flex;
   justify-content: space-between;
 }
@@ -454,7 +453,7 @@ nav {
 }
 
 #menu-ctn > div > #page-active {
-  color: #DAAA00;
+  color: #FF69B4;
 }
 
 #nav-span {

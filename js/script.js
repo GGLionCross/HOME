@@ -39,8 +39,8 @@ function menu_open()
 	var nav = $("nav");
 	var menu = $("#menu-ctn");
 	var menu_btn = $("#menu-btn");
-	menu_btn.children("div").css("background-color", "#DAAA00");
-	menu.css("border-bottom", "3px solid white");
+	menu_btn.children("div").css("background-color", "#FF69B4");
+	menu.css("border-bottom", "3px solid black");
 	menu.animate({ "margin-top": 0 }, "slow");
 	nav.css("box-shadow", "0 0 1px 100vmax rgba(0,0,0,0.7)");
 }
