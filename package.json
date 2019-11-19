@@ -19,7 +19,7 @@
   "homepage": "https://github.com/GGLionCross/HOME#readme",
   "devDependencies": {
     "babel-core": "^6.26.3",
-    "babel-loader": "^8.0.6",
+    "babel-loader": "^7.1.5",
     "babel-preset-env": "^1.7.0",
     "webpack": "^4.41.2",
     "webpack-dev-server": "^3.9.0"
