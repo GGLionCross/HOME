@@ -1,0 +1,20 @@
+{
+  "name": "HOME-UCD",
+  "version": "1.0.0",
+  "description": "Website for H.O.M.E at UC Davis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GGLionCross/HOME.git"
+  },
+  "keywords": [],
+  "author": "Lionel S. Quiambao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GGLionCross/HOME/issues"
+  },
+  "homepage": "https://github.com/GGLionCross/HOME#readme"
+}
